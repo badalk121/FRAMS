@@ -19,7 +19,7 @@ Before running the code, make sure you have the following installed:
 1. Clone the repository:
 
    ```shell
-   git clone https://github.com/your-username/Vision-ToolBox.git
+   git clone https://github.com/badalk121/FRAMS.git
    ```
 
 2. Install the required packages:
