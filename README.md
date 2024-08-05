@@ -36,21 +36,19 @@ Before running the code, make sure you have the following installed:
    code .
    ```
 
-2. Run the `train.py` script to train the face recognition model:
+2. Run the `train.py` script to run the application:
 
    ```shell
    python train.py
    ```
 
-   This script will prompt you to enter an ID and a name for each person whose face you want to train. It will then capture images of the person's face and save them in the `TrainingImage` folder.
-
-3. Once the model is trained, you can run the `TrackImages.py` script to track faces in real-time video:
-
-   ```shell
-   python TrackImages.py
-   ```
-
-   This script will open a window showing the video feed. It will detect and recognize faces in the video, and display the name of the recognized person on the screen.
+3. The above script will open a windows within which the application will run. You need to enter an ID and a name for each person whose face you want to train. It will then capture images of the person's face and save them in the `TrainingImage` folder.
+   
+4. Then you have to click the "Train" button which will start training the model for all the images and person details that have been enrolled.
+   
+5. Once the model is trained, you can click the "Take Attendance" Button on the application to open a window showing the video feed. It will detect and recognize faces in the video, and display the name of the recognized person on the screen.
+   
+6. Then it will save the attendance details in a CSV file in the "Attendance" Folder.
 
 ## Contributing
 
